@@ -1,0 +1,26 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "watch": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+
+    // опции строгого режима
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "strictFunctionTypes": true,
+//    "strictBindCallApply": true,
+//    "noImplicitThis": true,
+//    "useUnknownInCatchVariables": true,
+
+    // дополнительные проверки - не включаются опцией strict
+//    "noPropertyAccessFromIndexSignature": true,
+//    "noUncheckedIndexedAccess": true,
+//    "noImplicitReturns": true,
+//    "noFallthroughCasesInSwitch": true,
+//    "noUnusedLocals": true,
+//    "noUnusedParameters": true,
+  }
+}

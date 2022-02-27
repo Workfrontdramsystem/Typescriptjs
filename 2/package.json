@@ -1,0 +1,27 @@
+{
+  "name": "gb_typescript_31-08-21",
+  "version": "1.0.0",
+   "keywords": [
+    "typescript",
+    "geekbrains"
+  ],
+  "author": "Vilen Bejenaru",
+  "license": "ISC","description": "Geekbrains Typescript Course",
+  "main": "index.js",
+  "scripts": {
+    "build": "rd -r public\\scripts 2>null & tsc",
+    "dev": "rd -r public\\scripts 2>null & tsc -p tsconfig-dev.json",
+    "start": "http-server -p 3000",
+    "lint": "eslint src --ext .js --ext .ts",
+    "lint-fix": "eslint src --ext .js --ext .ts --fix"
+
+  },
+
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "@typescript-eslint/parser": "^4.31.0",
+    "eslint": "^7.32.0",
+    "http-server": "^13.0.1",
+    "typescript": "^4.4.2"
+  }
+}
