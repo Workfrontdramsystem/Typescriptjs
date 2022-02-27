@@ -1,0 +1,1 @@
+GET http://localhost:3030/places/?coordinates=59.9386,30.3141&checkInDate=1638144000000&checkOutDate=1638316800000&maxPrice=90000

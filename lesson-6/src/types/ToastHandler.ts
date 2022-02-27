@@ -1,0 +1,3 @@
+export interface ToastHandler {
+  (): void
+}
